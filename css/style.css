@@ -685,6 +685,44 @@ a { color: inherit; text-decoration: none; }
   max-width: 120px;
 }
 
+/* --- SCROLL ANIMATIE VOOR HET FOTO FRAME --- */
+
+/* Maak het foto-frame op de pagina sticky */
+.polaroid-image-frame {
+  position: sticky;
+  top: 1rem;
+  z-index: 10;
+  transition: all 0.35s ease-in-out;
+  max-height: 450px;
+  overflow: hidden;
+}
+
+/* Wanneer er gescrold wordt op de pagina, krimpt de preview foto */
+.polaroid-image-frame.scrolled {
+  max-height: 180px;
+  transform: scale(0.98);
+}
+
+.polaroid-image-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.35s ease-in-out;
+}
+
+/* --- SCROLL ANIMATIE BINNEN DE LIGHTBOX POP-UP --- */
+
+#lightbox-img {
+  transition: all 0.35s ease-in-out;
+  max-height: 55vh;
+  object-fit: contain;
+}
+
+/* Krimpt de foto in de pop-up zodra je omlaag scrolt in de tekst */
+#lightbox-img.scrolled {
+  max-height: 160px;
+}
+
 /* PASSPORT SECTION (ABOUT REBECCA) */
 .passport-section {
   background: #f1ebd9;
