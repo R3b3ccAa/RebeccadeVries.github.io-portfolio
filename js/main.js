@@ -52,6 +52,7 @@ const translations = {
     footerCredits: "CMD • Avans Hogeschool • 2026",
     backToTop: "Terug naar boven ↑",
 
+    // Extra page translations
     backToPassportBtn: "← Terug naar Hoofdpagina",
     extraHeaderTitle: "Meer Over Rebecca ✦",
     extraHeaderSub: "“Creativiteit is geen hobby, maar mijn manier van kijken naar de wereld.”",
@@ -121,6 +122,7 @@ const translations = {
     footerCredits: "CMD • Avans University of Applied Sciences • 2026",
     backToTop: "Back to top ↑",
 
+    // Extra page translations
     backToPassportBtn: "← Back to Main Page",
     extraHeaderTitle: "More About Rebecca ✦",
     extraHeaderSub: "“Creativity is not a hobby, but my way of looking at the world.”",
@@ -139,7 +141,7 @@ const translations = {
   }
 };
 
-// All 5 Distinct Portfolio Projects
+// All 5 Distinct Portfolio Projects with Complete Case Studies in Dutch & English
 const projects = [
   // PROJECT 1: MY PORTFOLIO
   {
@@ -186,6 +188,7 @@ const projects = [
             <p>I was immediately excited by the first results. I could recognise my own vision in the designs, even though I hadn't fully defined what I wanted my portfolio to look like.</p>
             <p>Throughout the process, I received feedback from teachers and classmates. They found the style and colours creative and original, but also pointed out that some text was too small, the amount of text could feel overwhelming, and my projects needed more space.</p>
 
+            <!-- PROCESS GALLERY GRID -->
             <div class="process-gallery-grid">
               <div class="process-gallery-item zoomable-image-card">
                 <img src="assets/projects/my-portfolio/inspo-board.jpg" alt="Inspiration Board Collective 5" class="zoomable-img">
@@ -197,7 +200,7 @@ const projects = [
               </div>
               <div class="process-gallery-item zoomable-image-card">
                 <img src="assets/projects/my-portfolio/passport-inspiration.png" alt="Behance Graphic Passport Reference" class="zoomable-img">
-                <span class="process-gallery-caption">Passport Inspiration Source: Graphic Design Passport (Behance)</span>
+                <span class="process-gallery-caption">🛂 Inspiration Source: Graphic Design Passport (Behance)</span>
               </div>
               <div class="process-gallery-item zoomable-image-card">
                 <img src="assets/projects/my-portfolio/desktop-inspiration.png" alt="Behance Desktop UI Reference" class="zoomable-img">
@@ -250,6 +253,7 @@ const projects = [
           <p>Ik was meteen enthousiast over de eerste resultaten. Ik herkende mijn eigen visie in de ontwerpen, ook al had ik van tevoren nog niet exact gedefinieerd hoe mijn portfolio eruit moest komen te zien.</p>
           <p>Gedurende het proces ontving ik feedback van docenten en klasgenoten. Zij vonden de stijl en kleuren creatief en origineel, maar gaven ook aan dat sommige teksten te klein waren, de hoeveelheid tekst soms overweldigend aanvoelde en mijn projecten meer ruimte nodig hadden.</p>
 
+          <!-- PROCESS GALLERY GRID -->
           <div class="process-gallery-grid">
             <div class="process-gallery-item zoomable-image-card">
               <img src="assets/projects/my-portfolio/inspo-board.jpg" alt="Inspiratiebord Collective 5" class="zoomable-img">
@@ -261,7 +265,7 @@ const projects = [
             </div>
             <div class="process-gallery-item zoomable-image-card">
               <img src="assets/projects/my-portfolio/passport-inspiration.png" alt="Behance Grafisch Paspoort Inspiratie" class="zoomable-img">
-              <span class="process-gallery-caption">Passport Inspiratiebron: Grafisch Paspoort concept (Behance)</span>
+              <span class="process-gallery-caption">🛂 Inspiratiebron: Grafisch Paspoort concept (Behance)</span>
             </div>
             <div class="process-gallery-item zoomable-image-card">
               <img src="assets/projects/my-portfolio/desktop-inspiration.png" alt="Desktop UI Inspiratie" class="zoomable-img">
@@ -334,6 +338,7 @@ const projects = [
             <p>As I started developing the concept, I realised I wasn't getting much further than a moodboard. Instead of continuing to push an idea that wasn't progressing, I decided to explore other possibilities within photography.</p>
             <p>This led me to the idea of a photobooth. It felt like a direction that offered more opportunities to experiment with the environment, the interaction and the overall user experience.</p>
 
+            <!-- PROCESS GALLERY GRID -->
             <div class="process-gallery-grid">
               <div class="process-gallery-item zoomable-image-card">
                 <img src="assets/projects/ripple-media-house/ripple-moodboard.png" alt="Moodboard Ripple Media House" class="zoomable-img">
@@ -409,6 +414,7 @@ const projects = [
           <p>Tijdens het uitwerken merkte ik dat ik niet veel verder kwam dan een moodboard. Ik besloot daarom mijn idee los te laten en andere mogelijkheden binnen fotografie te onderzoeken.</p>
           <p>Zo kwam ik uit bij een photobooth. Dit voelde als een richting waarin ik meer mogelijkheden had om te experimenteren met de omgeving, de interactie en de ervaring van de gebruiker.</p>
 
+          <!-- PROCESS GALLERY GRID -->
           <div class="process-gallery-grid">
             <div class="process-gallery-item zoomable-image-card">
               <img src="assets/projects/ripple-media-house/ripple-moodboard.png" alt="Moodboard Ripple Media House" class="zoomable-img">
@@ -504,6 +510,7 @@ const projects = [
             <h3>✨ Meaning & Creative Recognition</h3>
             <p>Achieving third place was a meaningful recognition of this ongoing development and the work invested in creating the final image.</p>
 
+            <!-- PURE PHOTOGRAPHY GALLERY -->
             <div class="photo-gallery-grid">
               <div class="photo-gallery-item zoomable-image-card">
                 <img src="assets/projects/ravensteinse-fotodagen/killjoy-preview.jpg" alt="June Bos as Killjoy - Official Competition Portrait" class="zoomable-img">
@@ -557,6 +564,7 @@ const projects = [
           <h3>✨ Betekenis & Waardevolle Erkenning</h3>
           <p>Het behalen van de derde plaats is een waardevolle erkenning van deze ontwikkeling en van het werk dat in het creëren van het uiteindelijke beeld is gestoken.</p>
 
+          <!-- PURE FOTOGRAFIE GALERIJ -->
           <div class="photo-gallery-grid">
             <div class="photo-gallery-item zoomable-image-card">
               <img src="assets/projects/ravensteinse-fotodagen/killjoy-preview.jpg" alt="June Bos als Killjoy - Wedstrijdfoto" class="zoomable-img">
@@ -743,7 +751,7 @@ const projects = [
     date_en: '2026 • Tilburg',
     location_nl: 'Van Gogh Homeland',
     location_en: 'Van Gogh Homeland',
-    // Hier is het pad aangepast met URL-encoding voor de ruimtes/spaties in de mapnaam
+    // Zowel relatief met ./ als met URL encoding voor de spaties
     image: './Projecten/' + encodeURIComponent('Geforceerd Groen project') + '/Expo2.jpg',
     desc_nl: 'Top 3 Concept! Een schurende ruimtelijke interventie voor Van Gogh Homeland die bewoners van Tilburg confronteert met de strijd om ruimte tussen mens en natuur.',
     desc_en: 'Top 3 Concept! A provocative spatial intervention for Van Gogh Homeland challenging Tilburg residents to reconsider the balance between humanity and urban nature.',
@@ -1102,6 +1110,32 @@ function triggerCameraFlash() {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
+  // SCROLL ANIMATIE: Foto op pagina verkleinen bij scrollen
+  window.addEventListener('scroll', () => {
+    const showcaseFrame = document.getElementById('showcase-frame');
+    if (!showcaseFrame) return;
+
+    if (window.scrollY > 80) {
+      showcaseFrame.classList.add('scrolled');
+    } else {
+      showcaseFrame.classList.remove('scrolled');
+    }
+  });
+
+  // SCROLL ANIMATIE: Foto in Lightbox Pop-up verkleinen bij scrollen
+  const lightboxDialog = document.querySelector('#lightbox-modal .lightbox-dialog');
+  if (lightboxDialog) {
+    lightboxDialog.addEventListener('scroll', () => {
+      const lightboxImg = document.getElementById('lightbox-img');
+      if (lightboxDialog.scrollTop > 60) {
+        lightboxImg.classList.add('scrolled');
+      } else {
+        lightboxImg.classList.remove('scrolled');
+      }
+    });
+  }
+
+  // Setup language switcher
   const langButtons = document.querySelectorAll(".lang-btn");
   langButtons.forEach((btn) => {
     btn.addEventListener("click", (e) => {
@@ -1114,6 +1148,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const savedLang = localStorage.getItem("selectedLang") || "nl";
   setLanguage(savedLang);
 
+  // Smooth scroll links
   const navLinks = document.querySelectorAll('.nav-link');
   navLinks.forEach(link => {
     link.addEventListener('click', (e) => {
@@ -1130,11 +1165,13 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
+  // Camera Flash Buttons
   const cameraUnit = document.getElementById('camera-unit');
   const cameraSnapText = document.getElementById('camera-snap-text');
   if (cameraUnit) cameraUnit.addEventListener('click', triggerCameraFlash);
   if (cameraSnapText) cameraSnapText.addEventListener('click', triggerCameraFlash);
 
+  // Prev / Next Project buttons
   const btnPrev = document.getElementById('btn-prev-work');
   const btnNext = document.getElementById('btn-next-work');
   if (btnNext) {
@@ -1148,6 +1185,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  // Filter Buttons
   const filterBtns = document.querySelectorAll('.selector-filter-bar .filter-btn');
   filterBtns.forEach(btn => {
     btn.addEventListener('click', () => {
@@ -1157,6 +1195,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
+  // View full case study button
   const btnFullsize = document.getElementById('btn-view-fullsize');
   if (btnFullsize) {
     btnFullsize.addEventListener('click', () => {
@@ -1164,11 +1203,13 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  // Showcase image click zoom
   const showcaseImg = document.getElementById('showcase-img');
   if (showcaseImg) {
     showcaseImg.addEventListener('click', () => openImageZoom(showcaseImg.src));
   }
 
+  // Lightbox close
   const lightboxClose = document.getElementById('lightbox-close');
   if (lightboxClose) lightboxClose.addEventListener('click', closeLightbox);
 
@@ -1181,6 +1222,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  // Zoom modal close
   const zoomModalClose = document.getElementById('zoom-modal-close');
   if (zoomModalClose) zoomModalClose.addEventListener('click', closeImageZoom);
 
@@ -1193,6 +1235,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  // Copy email button
   const copyEmailBtn = document.getElementById('copy-email-btn');
   if (copyEmailBtn) {
     copyEmailBtn.addEventListener('click', () => {
@@ -1202,6 +1245,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  // Mobile menu toggle
   const mobileToggle = document.getElementById('mobile-menu-toggle');
   const mainNav = document.getElementById('main-nav');
   if (mobileToggle && mainNav) {
@@ -1210,6 +1254,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  // Initialize
   renderFilmrollGrid('all');
   setProject(0);
   setupZoomableImages();
